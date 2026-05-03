@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #e8e6f8;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  min-height: 700px;
+  background: #f4f3ff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 960px;
+  box-shadow: 0 8px 40px rgba(91, 79, 207, 0.15);
+}
+
+.sidebar {
+  background: #5b4fcf;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.logo span {
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  background: rgba(255,255,255,0.2);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  background: #fff;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ede9ff;
+}
+
+.add-btn {
+  background: #5b4fcf;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* (senin uzun CSS’in burada devam eder — tamamen aynı şekilde koyabilirsin) */
